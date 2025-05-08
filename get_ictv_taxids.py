@@ -3,7 +3,7 @@
 import taxopy
 
 # Read the official ICTV names
-with open("ictv.names.txt") as fin:
+with open("ictv_taxonomy.tsv") as fin:
     ictv_name_set = {i.strip() for i in fin.readlines()}
 
 # Create the Taxopy NCBI and ICTV databases
